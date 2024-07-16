@@ -1,0 +1,94 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #121212; /* Dark background */
+  color: #e0e0e0; /* Light text */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Full viewport height */
+}
+.header-container {
+  text-align: center;
+  margin-bottom: 20px; /* Space between header and card */
+}
+
+.header-title {
+  font-size: 2.5em;
+  font-family: sans-serif;
+  color: #ffffff; /* White color for the main header */
+  margin: 20px 0;
+}
+
+.header-container h5 {
+  font-size: 1.2em;
+  font-family: sans-serif;
+  color: #f88; /* Light red color for the subtitle */
+  margin: 10px 0;
+}
+
+.header-container a {
+  color: #f88; /* Light red color for the link */
+  text-decoration: none;
+}
+
+.header-container a:hover {
+  text-decoration: underline;
+}
+
+.card {
+  background-color: #1e1e1e; /* Slightly lighter dark background */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  margin: 20px auto;
+  width: 960px;
+  padding: 20px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #e0e0e0; /* Light text */
+  font-size: 24px;
+}
+
+.chart {
+  border: 1px solid #333; /* Darker border */
+  background-color: #1e1e1e; /* Slightly lighter dark background */
+  width: 100%;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  shape-rendering: crispEdges;
+  stroke: #e0e0e0; /* Light axis lines */
+}
+
+.dot {
+  fill: steelblue;
+  stroke: #333; /* Darker stroke for visibility */
+  stroke-width: 1px;
+}
+
+.dot:hover {
+  fill: orange;
+}
+
+.notes {
+  margin-top: 10px;
+  text-align: center;
+  color: #e0e0e0; /* Light text */
+}
+
+#tooltip {
+  padding: 5px;
+  background-color: #333; /* Dark background for tooltip */
+  color: #e0e0e0; /* Light text */
+  border-radius: 3px;
+  pointer-events: none;
+  opacity: 0.8;
+  font-size: 12px;
+}

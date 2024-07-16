@@ -1,0 +1,99 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #121212; /* Dark mode background color */
+  color: #e0e0e0; /* Light text color for dark mode */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+  height: 100vh;
+  overflow: hidden; /* Prevent scrollbars */
+}
+
+.header-container {
+  text-align: center;
+  margin-top: 20px; /* Space between top and header */
+  margin-bottom: 20px; /* Space between header and card */
+}
+
+.header-title {
+  font-size: 2.5em; /* Adjusted font size for the main header */
+  font-family: sans-serif;
+  color: #ffffff; /* White color for the main header */
+  margin: 20px 0;
+}
+
+.header-container h5 {
+  font-size: 1.2em; /* Adjusted font size for the subtitle */
+  font-family: sans-serif;
+  color: #f88; /* Light red color for the subtitle */
+  margin: 10px 0;
+}
+
+.header-container a {
+  color: #f88; /* Light red color for the link */
+  text-decoration: none;
+}
+
+.header-container a:hover {
+  text-decoration: underline;
+}
+
+.card {
+  background-color: #1e1e1e; /* Slightly lighter dark background */
+  border-radius: 10px; /* More rounded corners */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5); /* More pronounced shadow */
+  margin: 20px auto; /* Center horizontally */
+  padding: 20px;
+  width: 90vw; /* Fit to screen width */
+  max-width: 1200px; /* Maximum width for larger screens */
+  height: 80vh; /* Fit to screen height */
+  max-height: 800px; /* Maximum height for larger screens */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content horizontally */
+  overflow: hidden; /* Hide overflow content */
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #e0e0e0; /* Light text */
+  font-size: 2.5em; /* Adjusted font size */
+}
+
+.chart {
+  border: 1px solid #333; /* Darker border */
+  background-color: #1e1e1e; /* Match the card background color */
+  width: 100%;
+  height: 100%; /* Full height of the card */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.notes {
+  margin-top: 20px;
+  font-size: 1.2em; /* Slightly larger font size for notes */
+}
+
+#legend {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; /* Increased margin for spacing */
+}
+
+#legend rect {
+  width: 40px; /* Larger legend rectangles */
+  height: 30px;
+  margin-right: 10px; /* Increased margin between legend items */
+}
+
+#tooltip {
+  position: absolute;
+  background-color: #333; /* Tooltip background color */
+  color: #fff;
+  padding: 10px; /* Larger padding for better readability */
+  border-radius: 5px; /* Slightly larger border radius */
+  display: none;
+  border: 1px solid #444; /* Border color to match the dark theme */
+}

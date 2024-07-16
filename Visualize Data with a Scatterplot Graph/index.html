@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scatterplot Graph</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="header-container">
+      <h1 class="header-title">Visualize Data with Bar Chart</h1>
+      <h5>
+        By:<a href="https://www.freecodecamp.org/Milave-kun"> Milave-kun</a>
+      </h5>
+    </div>
+    <div class="card">
+      <div class="title" id="title">Cyclist Scatterplot</div>
+      <svg class="chart" id="scatterplot" width="960" height="500"></svg>
+      <div class="notes" id="legend">
+        <p>Legend: <span>Each dot represents a cyclist's data.</span></p>
+      </div>
+      <div id="tooltip" style="position: absolute; display: none"></div>
+    </div>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

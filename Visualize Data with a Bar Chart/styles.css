@@ -1,0 +1,128 @@
+body {
+  background-color: #333; /* Dark background color for the body */
+  color: #fff; /* White text color for body text */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Full viewport height */
+}
+
+.header-container {
+  text-align: center;
+  margin-bottom: 20px; /* Space between header and card */
+}
+
+.header-title {
+  font-size: 2.5em;
+  font-family: sans-serif;
+  color: #ffffff; /* White color for the main header */
+  margin: 20px 0;
+}
+
+.header-container h5 {
+  font-size: 1.2em;
+  font-family: sans-serif;
+  color: #f88; /* Light red color for the subtitle */
+  margin: 10px 0;
+}
+
+.header-container a {
+  color: #f88; /* Light red color for the link */
+  text-decoration: none;
+}
+
+.header-container a:hover {
+  text-decoration: underline;
+}
+
+.card {
+  background-color: #444; /* Dark background color for the card */
+  padding: 0px;
+  width: 1050px;
+  height: 640px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.32), 0 3px 12px 0 rgba(0, 0, 0, 0.24);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center; /* Center text within the card */
+}
+
+.title {
+  font-size: 2.5em;
+  font-family: sans-serif;
+  color: #9fc5e8; /* Light blue color for the title */
+  text-align: center;
+  padding: 15px 0 5px 0;
+}
+
+.chart {
+  background-color: #444; /* Dark background color for the chart area */
+  margin: 0 auto;
+}
+
+.notes {
+  font-size: 12px;
+  font-family: sans-serif;
+  color: #9fc5e8; /* Light blue color for notes */
+  padding: 20px;
+  text-align: center;
+}
+
+p {
+  margin: 0;
+}
+
+.chart .mouseover {
+  fill: #76a5af; /* Light blue color for bars on hover */
+}
+
+.chart rect,
+.chart .mouseoff {
+  fill: #9fc5e8; /* Light blue color for bars */
+}
+
+.chart text {
+  fill: #fff; /* White text for better contrast on dark background */
+  font: 10px sans-serif;
+  text-anchor: end;
+}
+
+.axis text {
+  font: 15px sans-serif;
+  fill: #ccc; /* Light gray color for axis text */
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #ccc; /* Light gray color for axis lines */
+  shape-rendering: crispEdges;
+}
+
+.tooltip {
+  position: absolute;
+  text-align: left;
+  width: auto;
+  height: auto;
+  padding: 3px 5px;
+  font: 1em sans-serif;
+  border: 0px;
+  border-radius: 5px;
+  pointer-events: none;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+  background-color: #333; /* Dark background for tooltip */
+  color: #fff; /* White text for tooltip */
+}
+
+.amount {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.year {
+  font-size: 0.8em;
+  font-weight: normal;
+}

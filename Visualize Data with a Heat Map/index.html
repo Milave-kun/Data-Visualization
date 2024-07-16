@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Heat Map</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="header-container">
+      <h1 class="header-title">Visualize Data with Bar Chart</h1>
+      <h5>
+        By:<a href="https://www.freecodecamp.org/Milave-kun"> Milave-kun</a>
+      </h5>
+    </div>
+    <div class="card">
+      <div class="title" id="title">Global Temperature Heat Map</div>
+      <svg class="chart" id="heatmap"></svg>
+      <div class="notes" id="description">
+        This heat map visualizes the global temperature from 1754 to 2015.
+      </div>
+    </div>
+    <div id="legend"></div>
+    <div id="tooltip"></div>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
