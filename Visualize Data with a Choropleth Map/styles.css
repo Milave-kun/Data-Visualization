@@ -1,0 +1,94 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.header-container {
+  text-align: center;
+  margin-bottom: 20px; /* Space between header and card */
+}
+
+.header-title {
+  font-size: 2.5em;
+  font-family: sans-serif;
+  color: #ffffff; /* White color for the main header */
+  margin: 20px 0;
+}
+
+.header-container h5 {
+  font-size: 1.2em;
+  font-family: sans-serif;
+  color: #f88; /* Light red color for the subtitle */
+  margin: 10px 0;
+}
+
+.header-container a {
+  color: #f88; /* Light red color for the link */
+  text-decoration: none;
+}
+
+.header-container a:hover {
+  text-decoration: underline;
+}
+
+.card {
+  background: #1e1e1e;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  max-width: 960px;
+  width: 100%;
+  margin: 20px;
+}
+
+.title {
+  padding: 20px;
+  text-align: center;
+  background: #007acc;
+  color: white;
+}
+
+.title h1 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.title p {
+  margin: 0;
+}
+
+.chart {
+  width: 100%;
+  height: 600px;
+}
+
+.notes {
+  padding: 20px;
+  text-align: center;
+  background: #1e1e1e;
+}
+
+.county {
+  stroke: #333;
+  stroke-width: 0.5px;
+}
+
+#tooltip {
+  background-color: #333;
+  color: white;
+  border: 1px solid #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#legend {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}

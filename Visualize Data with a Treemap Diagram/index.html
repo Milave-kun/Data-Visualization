@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Treemap Diagram</title>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="header-container">
+      <h1 class="header-title">Visualize Data with a Treemap Diagram</h1>
+      <h5>
+        By: <a href="https://www.freecodecamp.org/Milave-kun">Milave-kun</a>
+      </h5>
+    </div>
+    <div id="button-container">
+      <button id="video-game-sales">Video Game Sales</button>
+      <button id="movie-sales">Movie Sales</button>
+      <button id="kickstarter-pledges">Kickstarter Pledges</button>
+    </div>
+    <div class="card">
+      <div class="title">Treemap Diagram</div>
+      <svg class="chart"></svg>
+      <div id="legend"></div>
+      <div class="notes"></div>
+    </div>
+    <div id="tooltip" style="position: absolute; opacity: 0"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
